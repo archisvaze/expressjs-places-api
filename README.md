@@ -29,7 +29,7 @@ or
 https://manage-places-api.herokuapp.com/find/name
 
 ### Example Response 
-GET: https://manage-places-api.herokuapp.com/find/New York
+GET: [https://manage-places-api.herokuapp.com/find/New York](https://manage-places-api.herokuapp.com/find/New%20York)
 ```
 [
 {

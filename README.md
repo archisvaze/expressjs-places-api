@@ -11,32 +11,6 @@ This is a simple API to manage places. The API allows you to:
 ### GET: get all places
 https://manage-places-api.herokuapp.com/
 
-### Respnse
-```
-[
-{
-    "_id": "63084a99cdee9d66065a2af4",
-    "name": "Cricket Club",
-    "city": "Pune",
-    "state": "Maharashtra",
-    "slug": "cricket-club-pune",
-    "createdAt": "2022-08-26T04:22:49.920Z",
-    "updatedAt": "2022-08-26T04:22:49.920Z",
-    "__v": 0
-},
-{
-    "name": "Gate Way Of India",
-    "city": "Mumbai",
-    "state": "Maharashtra",
-    "slug": "gate-way-of-india-mumbai",
-    "_id": "6308526997c57367f33c2b7a",
-    "createdAt": "2022-08-26T04:56:09.851Z",
-    "updatedAt": "2022-08-26T04:56:09.851Z",
-    "__v": 0
-}
-]
-```
-
 ### POST: Create a new place
 https://manage-places-api.herokuapp.com/create
 ```
@@ -49,6 +23,47 @@ https://manage-places-api.herokuapp.com/create
 ```
 Respnse is the newly created place
 
+### GET: Get a list of places by name or city
+https://manage-places-api.herokuapp.com/find/city
+or
+https://manage-places-api.herokuapp.com/find/name
+
+### Example Response 
+GET: https://manage-places-api.herokuapp.com/find/New York
+```
+[
+{
+"_id": "630854a37eb68a46678ed4e0",
+"name": "Statue Of Liberty",
+"city": "New York",
+"state": "New York",
+"slug": "statue-of-liberty-new york",
+"createdAt": "2022-08-26T05:05:39.663Z",
+"updatedAt": "2022-08-26T05:05:39.663Z",
+"__v": 0
+},
+{
+"_id": "630856e57723513701351f45",
+"name": "New York University",
+"city": "New York",
+"state": "New York",
+"slug": "new-york-university-new york",
+"createdAt": "2022-08-26T05:15:17.559Z",
+"updatedAt": "2022-08-26T05:15:17.559Z",
+"__v": 0
+},
+{
+"_id": "630857077723513701351f47",
+"name": "Central Park",
+"city": "New York",
+"state": "New York",
+"slug": "central-park-new york",
+"createdAt": "2022-08-26T05:15:51.607Z",
+"updatedAt": "2022-08-26T05:15:51.607Z",
+"__v": 0
+}
+]
+```
 
 ### GET: Find place by keyword
 https://manage-places-api.herokuapp.com/slug/keyword

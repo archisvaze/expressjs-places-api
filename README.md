@@ -24,8 +24,8 @@ https://manage-places-api.herokuapp.com/create
 Respnse is the newly created place
 
 ### GET: Get a list of places by name or city
-https://manage-places-api.herokuapp.com/find/city
-or
+https://manage-places-api.herokuapp.com/find/city  
+or  
 https://manage-places-api.herokuapp.com/find/name
 
 ### Example Response 

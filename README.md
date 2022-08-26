@@ -50,5 +50,5 @@ https://manage-places-api.herokuapp.com/create
 ```
 
 ### Find place by keyword
-https://manage-places-api.herokuapp.com/slug/<keyword>
+https://manage-places-api.herokuapp.com/slug/keyword
 

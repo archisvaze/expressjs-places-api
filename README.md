@@ -48,3 +48,7 @@ https://manage-places-api.herokuapp.com/create
 }
 ### Respnse is the newly created place
 ```
+
+### Find place by keyword
+https://manage-places-api.herokuapp.com/slug/<keyword>
+

@@ -8,7 +8,7 @@ This is a simple API to manage places. The API allows you to:
 
 ## End Points
 
-### GET all places
+### GET: get all places
 https://manage-places-api.herokuapp.com/
 
 ### Respnse
@@ -37,7 +37,7 @@ https://manage-places-api.herokuapp.com/
 ]
 ```
 
-### Create new place
+### POST: Create a new place
 https://manage-places-api.herokuapp.com/create
 ```
 'Accept: application/json'
@@ -50,6 +50,6 @@ https://manage-places-api.herokuapp.com/create
 Respnse is the newly created place
 
 
-### Find place by keyword
+### GET: Find place by keyword
 https://manage-places-api.herokuapp.com/slug/keyword
 

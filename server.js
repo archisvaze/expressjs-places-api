@@ -96,3 +96,15 @@ app.get("/slug/:keyword", async (req, res) => {
 })
 
 
+//get all
+app.get('/', async (req, res) => {
+    try {
+        const places = await places_collection.find({});
+        res.status(200).json(places)
+    } catch (err) {
+        console.log(err)
+        res.status(400).json({ error: err })
+    }
+})
+
+
